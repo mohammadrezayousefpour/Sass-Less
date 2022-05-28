@@ -1,0 +1,17 @@
+$bgcolor: #ffff;
+$font-color: red;
+$my-color: red;
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: $bgcolor;
+}
+
+h1 {
+  $my-color: green !global;
+  color: $my-color;
+}
+p {
+  color: $my-color;
+}
